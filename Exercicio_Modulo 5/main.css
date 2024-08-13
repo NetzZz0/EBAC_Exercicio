@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1,
+header div.container,
+.container h2 {
+    font-family: "Spicy Rice", serif;
+    font-weight: none;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 8px;
+}
+
+body {
+    background-color: rgb(37, 9, 37);
+    color: azure;
+}
+
+header>div.container {
+    padding: 16px 0;
+    background-color: rgb(111, 6, 160);
+    color: azure;
+    margin: 0;
+}
+
+header nav li {
+    display: inline;
+    margin: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: azure;
+    text-decoration: none;
+}
+
+#News div.container {
+    display: block;
+    max-width: 1366px;
+    width: 100%;
+    margin: auto;
+}
+
+.container h2 {
+    font-size: 32px;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 16px;
+}
+
+.articles article img {
+    width: 100%;
+}
+
+.articles article {
+    width: 70%;
+    padding-bottom: 36px;
+}
+
+.articles article h3,
+.contact-metods {
+    font-family: "EB Garamond", serif;
+    font-size: 24px;
+}
+
+header div.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+time {
+    color: rgba(240, 255, 255, 0.452);
+}
+
+p,
+.container form {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: none;
+}
+
+section {
+    padding: 16px 0;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 280px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 70px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: rgb(111, 6, 160);
+    color: azure;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(181, 52, 185);
+}
+
+input:focus,
+textarea:focus {
+    outline-color: rgb(111, 6, 160);
+    ;
+}
+
+footer {
+    background-color: rgb(111, 6, 160);
+}
