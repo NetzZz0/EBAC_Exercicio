@@ -12,17 +12,12 @@
 
 <body>
     <div class="container">
-        <h1>EBAC Banking</h1>
-        <h2>Depósitos</h2>
-        <form id="form-deposito">
-            <input type="text" id="nome-beneficiario" required placeholder="Nome completo do beneficiário" />
-            <p class="error-msg">
-                nome invalido
-            </p>
-            <input type="number" id="numero-conta" required placeholder="Número da conta" />
-            <input type="number" id="valor-deposito" required placeholder="Valor" />
-            <textarea id="descricao" placeholder="Descrição (opcional)"></textarea>
-            <button id="btn-depositar" type="submit">Depositar</button>
+        <h1>Comparando Campos</h1>
+        <h2>Campos</h2>
+        <form id="form-campos">
+            <input type="number" id="campoA" required placeholder="Digite valor A" />
+            <input type="number" id="campoB" required placeholder="Digite valor B" />
+            <button id="btn-depositar" type="submit">Comparar</button>
         </form>
         <p class="success-msg"></p>
     </div>
