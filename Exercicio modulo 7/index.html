@@ -15,11 +15,13 @@
         <h1>Comparando Campos</h1>
         <h2>Campos</h2>
         <form id="form-campos">
-            <input type="number" id="campoA" required placeholder="Digite valor A" />
-            <input type="number" id="campoB" required placeholder="Digite valor B" />
+            <input type="number" id="campo-A" name="campo-A" required placeholder="Digite valor A" />
+            <input type="number" id="campo-B" name="campo-B" required
+                placeholder="Digite valor que seja maior que o valor A" />
             <button id="btn-depositar" type="submit">Comparar</button>
         </form>
-        <p class="success-msg"></p>
+        <p class="success-msg">Formulario valido!! o segundo valor é maior que o valor A</p>
+        <p class="error-msg">Formulario invalido, segundo valor deve ser maior que o valor A</p>
     </div>
     <script src="main.js"></script>
 </body>

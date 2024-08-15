@@ -70,9 +70,3 @@ button:hover {
     font-size: 12px;
     display: none;
 }
-
-input.error {
-    color: red;
-    border-color: red;
-    outline-color: blue;
-}
